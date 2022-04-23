@@ -7,4 +7,5 @@ wb.create_sheet('Iwona')
 
 for sheet in wb:
     print(sheet.title)
+# wrie to some wb make sure it is closed first
 wb.save('ivona3.xlsx')
